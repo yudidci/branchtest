@@ -1052,7 +1052,7 @@ function searchWarga() {
 //tingkatan list
 function searchTingkatan() {
     $.ajax({
-        url: 'http://localhost:3001/user/followers',
+        url: 'http://localhost:3001/user/follower',
         type: 'GET',
         dataType: 'json',
         data: {
